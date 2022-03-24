@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="3no.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Numbers Average | Average Finder</title>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="two-number">
+
+            <h1>AVERAGE / MEAN OF 3 NUMBERS</h1>
+
+            <input type="number" class="Inputs" id="one" placeholder="Enter First Number">
+
+            <br><br>
+
+            <input type="number" class="Inputs" id="two" placeholder="Enter Second Number">
+
+            <br><br>
+
+            <input type="number" class="Inputs" id="third" placeholder="Enter Third Number">
+
+            <br><br>
+
+            <button class="Inputs" id="btn" onclick="average()">Get Average</button>
+            <br><br>br
+
+            <h2 class="Inputs" id="Demo">AVERAGE</h2>
+
+        </div>
+
+    </div>
+
+        <!-- Footer
+    ================================================== -->
+    <footer>
+        <div id="footer-section" class="text-center">
+          <div class="container">
+                <p class="copyright">
+                  &copy; Created By Vaibhav
+                </p>
+          </div> <!-- End container -->
+        </div> <!-- End footer-section  -->
+      </footer>
+      <!-- End footer -->
+    </div> <!-- End wrapper -->
+
+
+<!-- ==================================================================    
+THE END
+================================================================== -->
+
+<script>
+    function average(){
+        let a = document.getElementById("one").value;
+        let b = document.getElementById("two").value;
+        let c = document.getElementById("third").value;
+        let d = a/3 + b/3 + c/3;
+        if(c==""){
+            document.getElementById("Demo").innerHTML = "Please Enter A Number";
+        }else{            
+            document.getElementById("Demo").innerHTML ="AVERAGE = " + d;        
+        }
+    }
+</script>
+</body>
+</html>

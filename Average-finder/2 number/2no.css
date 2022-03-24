@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+* {
+  font-family: "Electrolize", sans-serif;
+}
+/* contaner */
+/* ========================================== */
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* body */
+/* ================================================= */
+body {
+  background-color: #1f1d36;
+}
+
+/* txt */
+/* ======================================================= */
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 5vw;
+  font-family: "Electrolize", sans-serif;
+  text-shadow: 0 0 5px #0bf4f3, 0 0 10px #0bf4f3, 0 0 20px #0bf4f3,
+    0 0 40px #0bf4f3, 0 0 80px #0bf4f3;
+}
+#Demo {
+  font-size: 5vw;
+  color: white;
+  top: 3rem;
+  /* text-align: center; */
+}
+
+/* INPUTS */
+/* ============================================================ */
+
+.Inputs {
+  text-align: center;
+  position: relative;
+  top: 4rem;
+  width: 50vw;
+  height: 5vh;
+  font-size: 15px;
+  border-radius: 0.5vw;
+}
+#one,
+#two {
+  background-color: #787a91;
+  border: 2px solid black;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+.two-number {
+  display: grid;
+  place-items: center;
+}
+
+/* button css */
+/* =================================== */
+
+#btn {
+  background: #ec1616;
+  width: 40vw;
+  height: 5vh;
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  border-radius: 0.5vw;
+  border: 1px solid black;
+}
+/*================ FOOTER ================*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fec260;
+  color: white;
+  text-align: center;
+  /* top: 8.2rem; */
+}
+.copyright {
+  color: black;
+}
