@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
 
 /***********************************************************************************************/
@@ -175,11 +176,13 @@ h3 {
 
 h4 {
   font-size: 5vw;
-  font-family: "Electrolize", sans-serif;
+  /* font-family: "Electrolize", sans-serif; */
+  font-family: 'Fugaz One', cursive;
 }
 
 h5 {
   font-size: 12px;
+  font-family: 'Fugaz One', cursive;
 }
 
 h6 {
@@ -188,6 +191,7 @@ h6 {
 
 p {
   margin: 0;
+  font-family: "Fugaz One", cursive;
 }
 
 .title-section hr {
@@ -387,7 +391,7 @@ p {
 } */
 #logo-bhaika {
   position: relative;
-  top: 1vw;
+
 }
 .custom-btn {
   color: rgb(0, 0, 0);
