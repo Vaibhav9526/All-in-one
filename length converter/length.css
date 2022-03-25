@@ -1,0 +1,120 @@
+/* IMPORT================= */
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+/*=================== BODY ===================*/
+
+body {
+  background-color: #2d4263;
+}
+
+/*=============== DIV ALIGNMENT=============== */
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Electrolize", sans-serif;
+  color: #ecff9a;
+}
+
+/* =============TEXT STYLE================== */
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 5vw;
+  font-family: "Electrolize", sans-serif;
+  text-shadow: 0 0 5px #0bf4f3, 0 0 10px #0bf4f3, 0 0 20px #0bf4f3,
+    0 0 40px #0bf4f3, 0 0 80px #0bf4f3;
+}
+
+/* =============CUSTOM BUTTON CLASS-15================= */
+
+.custom-btn {
+  color: rgb(9, 212, 248);
+  width: 30vw;
+  height: 5vh;
+  padding: 10px 25px;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+/* =======BUTTON STYLING========================== */
+
+.btn-15 {
+  color: #ff9aff;
+  border: 1px solid#ff9aff;
+  box-shadow: 0 0 5px #ff9aff, 0 0 5px #ff9aff inset;
+  z-index: 1;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #ff9aff;
+  box-shadow: 0 0 20px #ff9aff;
+  transition: all 0.3s ease;
+}
+.btn-15:hover {
+  color: #fff;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active {
+  top: 2px;
+}
+
+/* =============CUSTOM BUTTON CLASS-1================= */
+
+.custom-btn {
+  color: rgb(9, 212, 248);
+  width: 30vw;
+  height: 5vh;
+  padding: 10px 25px;
+  font-family: "Electrolize", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+/* =======BUTTON STYLING========================== */
+
+#exit {
+  background: #ec1616;
+  width: 20vw;
+  height: 5vh;
+  color: white;
+  font-family: "Electrolize", sans-serif;
+  border-radius: 0.5vw;
+  border: 1px solid black;
+}
+
+/*================ FOOTER ================*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fec260;
+  color: white;
+  text-align: center;
+  /* top: 8.2rem; */
+}
+.copyright {
+  color: black;
+}

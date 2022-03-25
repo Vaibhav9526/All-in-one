@@ -1,0 +1,123 @@
+/* OUR ULTIMATE CSS -->> */
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+  font-family: "Baloo Bhai 2", cursive;
+}
+/* CSS FOR DIVS */
+
+.container {
+  display: grid;
+  place-items: center;
+}
+.heading {
+  background: #34dab4;
+  text-align: center;
+  font-size: 3vw;
+}
+.btn_container {
+  margin-top: 50px;
+}
+.bulb_btn {
+  font-family: "Baloo Bhai 2", cursive;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #34dab4;
+  font-size: 30px;
+  text-shadow: -2px 1px 0px #ff0050;
+}
+
+/* CSS FOR OTHER ELEMENTS-->> */
+
+h1 {
+  text-shadow: -2px 1px 0px #ff0050;
+}
+#Bulb1 {
+  height: 50vh;
+  margin-top: 10vh;
+}
+section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#Demo {
+  margin-top: 15vh;
+  text-align: center;
+  background-color: #ff0050;
+}
+/***********************************************************************************************/
+/* =Footer */
+/***********************************************************************************************/
+
+#footer-section {
+  padding: 80px 0;
+  background: #f7f7f7;
+  border-top: 1px solid #eeeeee;
+}
+
+ul.footer-social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.footer-social-links li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+ul.footer-social-links li:first-child {
+  margin: 0;
+}
+
+ul.footer-social-links li a {
+  font-size: 15px;
+  color: #4f4f4f;
+  display: block;
+  text-transform: uppercase;
+}
+
+ul.footer-social-links li a:after {
+  content: "";
+  display: block;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #fe8869;
+  opacity: 0;
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+ul.footer-social-links li a:hover:after {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+p.copyright {
+  padding-top: 40px;
+}

@@ -1,0 +1,73 @@
+/* IMPORT================= */
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+/*=================== BODY ===================*/
+
+body {
+  background-color: #2d4263;
+}
+
+/*=============== DIV ALIGNMENT=============== */
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Fugaz One", cursive;
+  color: #ecff9a;
+}
+
+.get {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 10vh;
+  width: 15rem;
+  height: 5rem;
+  font-size: 1rem;
+  border-radius: 1vw;
+  background-color: rgb(214, 1, 1);
+  border: 1px solid black;
+}
+::placeholder {
+  color: white;
+  font-family: "Fugaz One", cursive;
+}
+
+/* =============TEXT STYLE================== */
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 5vw;
+  font-family: "Electrolize", sans-serif;
+  text-shadow: 0 0 5px #0bf4f3, 0 0 10px #0bf4f3, 0 0 20px #0bf4f3,
+    0 0 40px #0bf4f3, 0 0 80px #0bf4f3;
+}
+
+/* ==============CENTIMETER================== */
+
+#centi {
+  text-align: center;
+  font-family: "Electrolize", sans-serif;
+  font-size: 5vw;
+  position: relative;
+  top: 15rem;
+  color: #ecff9a;
+}
+/*================ FOOTER ================*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fec260;
+  color: white;
+  text-align: center;
+  /* top: 8.2rem; */
+}
+.copyright {
+  color: black;
+}
