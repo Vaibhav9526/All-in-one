@@ -12,6 +12,7 @@ body{
 .Main{
     position: relative;
     background-color: rgb(0 0 0 / 65%);
+    border-radius: 10vw;
     top: 8rem;
 }
 .New{
